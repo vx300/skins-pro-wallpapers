@@ -76,6 +76,7 @@ function main() {
         data.wallpapers.push({
           id, category: catId, collection: collId,
           thumb: thumbRel, full: fullRel, added: today(),
+          w: fw, h: fh, // أبعاد الصورة الكاملة (لشارة الدقة بالتطبيق)
         });
 
         const doneDir = path.join(DONE, catId, collId);

@@ -83,6 +83,7 @@ def main():
                 data["wallpapers"].append({
                     "id": wid, "category": cat_id, "collection": coll_id,
                     "thumb": thumb_rel, "full": full_rel, "added": today,
+                    "w": fw, "h": fh,  # أبعاد الصورة الكاملة (لشارة الدقة بالتطبيق)
                 })
                 done_dir = os.path.join(DONE, cat_id, coll_id)
                 os.makedirs(done_dir, exist_ok=True)

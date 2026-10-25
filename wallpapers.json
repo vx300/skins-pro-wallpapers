@@ -46,7 +46,9 @@
       "collection": "outfits",
       "thumb": "phone/thumbs/ph001.webp",
       "full": "phone/full/ph001.webp",
-      "added": "2026-10-25"
+      "added": "2026-10-25",
+      "w": 1080,
+      "h": 1920
     },
     {
       "id": "ph002",
@@ -54,7 +56,9 @@
       "collection": "outfits",
       "thumb": "phone/thumbs/ph002.webp",
       "full": "phone/full/ph002.webp",
-      "added": "2026-10-25"
+      "added": "2026-10-25",
+      "w": 1080,
+      "h": 1920
     },
     {
       "id": "ph003",
@@ -62,7 +66,9 @@
       "collection": "outfits",
       "thumb": "phone/thumbs/ph003.webp",
       "full": "phone/full/ph003.webp",
-      "added": "2026-10-25"
+      "added": "2026-10-25",
+      "w": 1080,
+      "h": 1920
     },
     {
       "id": "ph004",
@@ -70,7 +76,9 @@
       "collection": "outfits",
       "thumb": "phone/thumbs/ph004.webp",
       "full": "phone/full/ph004.webp",
-      "added": "2026-10-25"
+      "added": "2026-10-25",
+      "w": 1080,
+      "h": 1920
     }
   ]
 }

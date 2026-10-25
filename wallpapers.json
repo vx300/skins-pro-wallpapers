@@ -1,27 +1,76 @@
 {
   "version": 1,
   "categories": [
-    {"id": "phone", "title": "خلفيات الهاتف", "ratio": "9:16"},
-    {"id": "pc", "title": "خلفيات الكمبيوتر", "ratio": "16:9"},
-    {"id": "chat", "title": "خلفيات واتساب وتلغرام", "ratio": "9:16"}
+    {
+      "id": "phone",
+      "title": "خلفيات الهاتف",
+      "ratio": "9:16"
+    },
+    {
+      "id": "pc",
+      "title": "خلفيات الكمبيوتر",
+      "ratio": "16:9"
+    },
+    {
+      "id": "chat",
+      "title": "خلفيات واتساب وتلغرام",
+      "ratio": "9:16"
+    }
   ],
   "collections": [
-    {"id": "outfits", "title": "بدلات"},
-    {"id": "weapons", "title": "أسلحة"},
-    {"id": "vehicles", "title": "مركبات"},
-    {"id": "companions", "title": "رفاق"},
-    {"id": "minimal", "title": "داكن وبسيط"}
+    {
+      "id": "outfits",
+      "title": "بدلات"
+    },
+    {
+      "id": "weapons",
+      "title": "أسلحة"
+    },
+    {
+      "id": "vehicles",
+      "title": "مركبات"
+    },
+    {
+      "id": "companions",
+      "title": "رفاق"
+    },
+    {
+      "id": "minimal",
+      "title": "داكن وبسيط"
+    }
   ],
   "wallpapers": [
-    {"id": "p001", "category": "phone", "collection": "outfits", "thumb": "phone/thumbs/p001.webp", "full": "phone/full/p001.webp", "added": "2026-10-25", "demo": true},
-    {"id": "p002", "category": "phone", "collection": "weapons", "thumb": "phone/thumbs/p002.webp", "full": "phone/full/p002.webp", "added": "2026-10-25", "demo": true},
-    {"id": "p003", "category": "phone", "collection": "vehicles", "thumb": "phone/thumbs/p003.webp", "full": "phone/full/p003.webp", "added": "2026-10-25", "demo": true},
-    {"id": "p004", "category": "phone", "collection": "companions", "thumb": "phone/thumbs/p004.webp", "full": "phone/full/p004.webp", "added": "2026-10-25", "demo": true},
-    {"id": "p005", "category": "phone", "collection": "minimal", "thumb": "phone/thumbs/p005.webp", "full": "phone/full/p005.webp", "added": "2026-10-25", "demo": true},
-    {"id": "p006", "category": "phone", "collection": "minimal", "thumb": "phone/thumbs/p006.webp", "full": "phone/full/p006.webp", "added": "2026-10-25", "demo": true},
-    {"id": "c001", "category": "pc", "collection": "weapons", "thumb": "pc/thumbs/c001.webp", "full": "pc/full/c001.webp", "added": "2026-10-25", "demo": true},
-    {"id": "c002", "category": "pc", "collection": "vehicles", "thumb": "pc/thumbs/c002.webp", "full": "pc/full/c002.webp", "added": "2026-10-25", "demo": true},
-    {"id": "c003", "category": "pc", "collection": "outfits", "thumb": "pc/thumbs/c003.webp", "full": "pc/full/c003.webp", "added": "2026-10-25", "demo": true},
-    {"id": "c004", "category": "pc", "collection": "minimal", "thumb": "pc/thumbs/c004.webp", "full": "pc/full/c004.webp", "added": "2026-10-25", "demo": true}
+    {
+      "id": "ph001",
+      "category": "phone",
+      "collection": "outfits",
+      "thumb": "phone/thumbs/ph001.webp",
+      "full": "phone/full/ph001.webp",
+      "added": "2026-10-25"
+    },
+    {
+      "id": "ph002",
+      "category": "phone",
+      "collection": "outfits",
+      "thumb": "phone/thumbs/ph002.webp",
+      "full": "phone/full/ph002.webp",
+      "added": "2026-10-25"
+    },
+    {
+      "id": "ph003",
+      "category": "phone",
+      "collection": "outfits",
+      "thumb": "phone/thumbs/ph003.webp",
+      "full": "phone/full/ph003.webp",
+      "added": "2026-10-25"
+    },
+    {
+      "id": "ph004",
+      "category": "phone",
+      "collection": "outfits",
+      "thumb": "phone/thumbs/ph004.webp",
+      "full": "phone/full/ph004.webp",
+      "added": "2026-10-25"
+    }
   ]
 }

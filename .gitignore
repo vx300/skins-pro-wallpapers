@@ -1,0 +1,5 @@
+done/*
+!done/.gitkeep
+incoming/**/*.png
+incoming/**/*.jpg
+incoming/**/*.jpeg

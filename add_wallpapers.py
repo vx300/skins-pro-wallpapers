@@ -61,14 +61,29 @@ def main():
         fw, fh = (1920, 1080) if wide else (1080, 1920)
         tw, th = (640, 360) if wide else (360, 640)
 
-        for coll_id in os.listdir(cat_dir):
+        # ترتيب المجموعات حسب تعريفها بالـ collections، وأي مجلد إضافي بعدها
+        dirs = [d for d in os.listdir(cat_dir)
+                if os.path.isdir(os.path.join(cat_dir, d))]
+        ordered_colls = [c["id"] for c in data["collections"] if c["id"] in dirs]
+        ordered_colls += [d for d in dirs if d not in colls]
+
+        def num_key(name):
+            import re
+            m = re.match(r"(\d+)", os.path.splitext(name)[0])
+            return int(m.group(1)) if m else 10**12
+
+        for coll_id in ordered_colls:
             coll_dir = os.path.join(cat_dir, coll_id)
             if not os.path.isdir(coll_dir):
                 continue
             if coll_id not in colls:
                 print(f'تنبيه: مجموعة غير معرّفة "{coll_id}"')
 
-            for file in os.listdir(coll_dir):
+            files = [f for f in os.listdir(coll_dir)
+                     if os.path.splitext(f)[1].lower() in EXTS]
+            # ترتيب رقميّ حسب رقم الصورة (1، 2، ... 10، 11) مو ترتيب أحرف
+            files.sort(key=lambda f: (num_key(f), f))
+            for file in files:
                 if os.path.splitext(file)[1].lower() not in EXTS:
                     continue
                 src = os.path.join(coll_dir, file)

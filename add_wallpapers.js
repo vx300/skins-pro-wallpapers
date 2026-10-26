@@ -55,12 +55,28 @@ function main() {
     const [fw, fh] = wide ? [1920, 1080] : [1080, 1920];
     const [tw, th] = wide ? [640, 360] : [360, 640];
 
-    for (const collId of fs.readdirSync(catDir)) {
+    // ترتيب المجموعات حسب تعريفها بالـ collections، وأي مجلد إضافي بعدها
+    const dirs = fs.readdirSync(catDir).filter((d) =>
+      fs.statSync(path.join(catDir, d)).isDirectory());
+    const orderedColls = [
+      ...data.collections.map((c) => c.id).filter((id) => dirs.includes(id)),
+      ...dirs.filter((d) => !colls.has(d)),
+    ];
+    // ترتيب رقميّ حسب رقم الصورة (1، 2، 3، ... 10، 11) مو ترتيب أحرف
+    const numKey = (name) => {
+      const m = /^(\d+)/.exec(path.basename(name, path.extname(name)));
+      return m ? parseInt(m[1], 10) : Number.MAX_SAFE_INTEGER;
+    };
+
+    for (const collId of orderedColls) {
       const collDir = path.join(catDir, collId);
       if (!fs.statSync(collDir).isDirectory()) continue;
       if (!colls.has(collId)) console.warn(`تنبيه: مجموعة غير معرّفة "${collId}" (أضفها لـ collections)`);
 
-      for (const file of fs.readdirSync(collDir)) {
+      const sorted = fs.readdirSync(collDir)
+        .filter((f) => EXTS.has(path.extname(f).toLowerCase()))
+        .sort((a, b) => numKey(a) - numKey(b) || a.localeCompare(b));
+      for (const file of sorted) {
         if (!EXTS.has(path.extname(file).toLowerCase())) continue;
         const src = path.join(collDir, file);
         const pfx = prefixFor(catId);

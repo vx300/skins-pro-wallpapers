@@ -63,7 +63,11 @@ def main():
             fw, fh = full
         else:
             fw, fh = (1920, 1080) if wide else (1080, 1920)
-        tw, th = round(fw / 3), round(fh / 3)
+        thumb = cat.get("thumb")
+        if isinstance(thumb, list) and len(thumb) == 2:
+            tw, th = thumb
+        else:
+            tw, th = round(fw / 3), round(fh / 3)
 
         # ترتيب المجموعات حسب تعريفها بالـ collections، وأي مجلد إضافي بعدها
         dirs = [d for d in os.listdir(cat_dir)

@@ -56,8 +56,10 @@ function main() {
     const [fw, fh] = (Array.isArray(cat.full) && cat.full.length === 2)
       ? cat.full
       : (wide ? [1920, 1080] : [1080, 1920]);
-    // المصغّرة = ثلث الكامل (متل العادة)
-    const [tw, th] = [Math.round(fw / 3), Math.round(fh / 3)];
+    // المصغّرة: من cat.thumb بالـ JSON، وإلا ثلث الكامل (متل العادة)
+    const [tw, th] = (Array.isArray(cat.thumb) && cat.thumb.length === 2)
+      ? cat.thumb
+      : [Math.round(fw / 3), Math.round(fh / 3)];
 
     // ترتيب المجموعات حسب تعريفها بالـ collections، وأي مجلد إضافي بعدها
     const dirs = fs.readdirSync(catDir).filter((d) =>

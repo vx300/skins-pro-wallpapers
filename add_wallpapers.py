@@ -58,8 +58,12 @@ def main():
             print(f'تخطّي: قسم غير معروف "{cat_id}"')
             continue
         wide = cat["ratio"] == "16:9"
-        fw, fh = (1920, 1080) if wide else (1080, 1920)
-        tw, th = (640, 360) if wide else (360, 640)
+        full = cat.get("full")
+        if isinstance(full, list) and len(full) == 2:
+            fw, fh = full
+        else:
+            fw, fh = (1920, 1080) if wide else (1080, 1920)
+        tw, th = round(fw / 3), round(fh / 3)
 
         # ترتيب المجموعات حسب تعريفها بالـ collections، وأي مجلد إضافي بعدها
         dirs = [d for d in os.listdir(cat_dir)

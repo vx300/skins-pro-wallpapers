@@ -12,9 +12,18 @@
       ]
     },
     {
-      "id": "pc",
-      "title": "خلفيات الكمبيوتر",
-      "ratio": "16:9"
+      "id": "tablet",
+      "title": "خلفيات التابلت",
+      "ratio": "10:16",
+      "full": [
+        1600,
+        2560
+      ],
+      "cover": [
+        "ta001",
+        "ta055",
+        "ta079"
+      ]
     },
     {
       "id": "chat",
@@ -1498,6 +1507,846 @@
       "added": "2026-10-26",
       "w": 1080,
       "h": 1920
+    },
+    {
+      "id": "ta001",
+      "category": "tablet",
+      "collection": "outfits",
+      "thumb": "tablet/thumbs/ta001.webp",
+      "full": "tablet/full/ta001.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta002",
+      "category": "tablet",
+      "collection": "outfits",
+      "thumb": "tablet/thumbs/ta002.webp",
+      "full": "tablet/full/ta002.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta003",
+      "category": "tablet",
+      "collection": "outfits",
+      "thumb": "tablet/thumbs/ta003.webp",
+      "full": "tablet/full/ta003.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta004",
+      "category": "tablet",
+      "collection": "outfits",
+      "thumb": "tablet/thumbs/ta004.webp",
+      "full": "tablet/full/ta004.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta005",
+      "category": "tablet",
+      "collection": "outfits",
+      "thumb": "tablet/thumbs/ta005.webp",
+      "full": "tablet/full/ta005.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta006",
+      "category": "tablet",
+      "collection": "outfits",
+      "thumb": "tablet/thumbs/ta006.webp",
+      "full": "tablet/full/ta006.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta007",
+      "category": "tablet",
+      "collection": "outfits",
+      "thumb": "tablet/thumbs/ta007.webp",
+      "full": "tablet/full/ta007.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta008",
+      "category": "tablet",
+      "collection": "outfits",
+      "thumb": "tablet/thumbs/ta008.webp",
+      "full": "tablet/full/ta008.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta009",
+      "category": "tablet",
+      "collection": "outfits",
+      "thumb": "tablet/thumbs/ta009.webp",
+      "full": "tablet/full/ta009.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta010",
+      "category": "tablet",
+      "collection": "outfits",
+      "thumb": "tablet/thumbs/ta010.webp",
+      "full": "tablet/full/ta010.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta011",
+      "category": "tablet",
+      "collection": "outfits",
+      "thumb": "tablet/thumbs/ta011.webp",
+      "full": "tablet/full/ta011.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta012",
+      "category": "tablet",
+      "collection": "outfits",
+      "thumb": "tablet/thumbs/ta012.webp",
+      "full": "tablet/full/ta012.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta013",
+      "category": "tablet",
+      "collection": "outfits",
+      "thumb": "tablet/thumbs/ta013.webp",
+      "full": "tablet/full/ta013.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta014",
+      "category": "tablet",
+      "collection": "outfits",
+      "thumb": "tablet/thumbs/ta014.webp",
+      "full": "tablet/full/ta014.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta015",
+      "category": "tablet",
+      "collection": "outfits",
+      "thumb": "tablet/thumbs/ta015.webp",
+      "full": "tablet/full/ta015.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta016",
+      "category": "tablet",
+      "collection": "outfits",
+      "thumb": "tablet/thumbs/ta016.webp",
+      "full": "tablet/full/ta016.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta017",
+      "category": "tablet",
+      "collection": "outfits",
+      "thumb": "tablet/thumbs/ta017.webp",
+      "full": "tablet/full/ta017.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta018",
+      "category": "tablet",
+      "collection": "outfits",
+      "thumb": "tablet/thumbs/ta018.webp",
+      "full": "tablet/full/ta018.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta019",
+      "category": "tablet",
+      "collection": "weapons",
+      "thumb": "tablet/thumbs/ta019.webp",
+      "full": "tablet/full/ta019.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta020",
+      "category": "tablet",
+      "collection": "weapons",
+      "thumb": "tablet/thumbs/ta020.webp",
+      "full": "tablet/full/ta020.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta021",
+      "category": "tablet",
+      "collection": "weapons",
+      "thumb": "tablet/thumbs/ta021.webp",
+      "full": "tablet/full/ta021.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta022",
+      "category": "tablet",
+      "collection": "weapons",
+      "thumb": "tablet/thumbs/ta022.webp",
+      "full": "tablet/full/ta022.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta023",
+      "category": "tablet",
+      "collection": "weapons",
+      "thumb": "tablet/thumbs/ta023.webp",
+      "full": "tablet/full/ta023.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta024",
+      "category": "tablet",
+      "collection": "weapons",
+      "thumb": "tablet/thumbs/ta024.webp",
+      "full": "tablet/full/ta024.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta025",
+      "category": "tablet",
+      "collection": "weapons",
+      "thumb": "tablet/thumbs/ta025.webp",
+      "full": "tablet/full/ta025.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta026",
+      "category": "tablet",
+      "collection": "weapons",
+      "thumb": "tablet/thumbs/ta026.webp",
+      "full": "tablet/full/ta026.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta027",
+      "category": "tablet",
+      "collection": "weapons",
+      "thumb": "tablet/thumbs/ta027.webp",
+      "full": "tablet/full/ta027.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta028",
+      "category": "tablet",
+      "collection": "weapons",
+      "thumb": "tablet/thumbs/ta028.webp",
+      "full": "tablet/full/ta028.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta029",
+      "category": "tablet",
+      "collection": "weapons",
+      "thumb": "tablet/thumbs/ta029.webp",
+      "full": "tablet/full/ta029.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta030",
+      "category": "tablet",
+      "collection": "weapons",
+      "thumb": "tablet/thumbs/ta030.webp",
+      "full": "tablet/full/ta030.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta031",
+      "category": "tablet",
+      "collection": "weapons",
+      "thumb": "tablet/thumbs/ta031.webp",
+      "full": "tablet/full/ta031.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta032",
+      "category": "tablet",
+      "collection": "weapons",
+      "thumb": "tablet/thumbs/ta032.webp",
+      "full": "tablet/full/ta032.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta033",
+      "category": "tablet",
+      "collection": "weapons",
+      "thumb": "tablet/thumbs/ta033.webp",
+      "full": "tablet/full/ta033.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta034",
+      "category": "tablet",
+      "collection": "weapons",
+      "thumb": "tablet/thumbs/ta034.webp",
+      "full": "tablet/full/ta034.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta035",
+      "category": "tablet",
+      "collection": "weapons",
+      "thumb": "tablet/thumbs/ta035.webp",
+      "full": "tablet/full/ta035.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta036",
+      "category": "tablet",
+      "collection": "weapons",
+      "thumb": "tablet/thumbs/ta036.webp",
+      "full": "tablet/full/ta036.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta037",
+      "category": "tablet",
+      "collection": "weapons",
+      "thumb": "tablet/thumbs/ta037.webp",
+      "full": "tablet/full/ta037.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta038",
+      "category": "tablet",
+      "collection": "weapons",
+      "thumb": "tablet/thumbs/ta038.webp",
+      "full": "tablet/full/ta038.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta039",
+      "category": "tablet",
+      "collection": "vehicles",
+      "thumb": "tablet/thumbs/ta039.webp",
+      "full": "tablet/full/ta039.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta040",
+      "category": "tablet",
+      "collection": "vehicles",
+      "thumb": "tablet/thumbs/ta040.webp",
+      "full": "tablet/full/ta040.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta041",
+      "category": "tablet",
+      "collection": "vehicles",
+      "thumb": "tablet/thumbs/ta041.webp",
+      "full": "tablet/full/ta041.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta042",
+      "category": "tablet",
+      "collection": "vehicles",
+      "thumb": "tablet/thumbs/ta042.webp",
+      "full": "tablet/full/ta042.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta043",
+      "category": "tablet",
+      "collection": "vehicles",
+      "thumb": "tablet/thumbs/ta043.webp",
+      "full": "tablet/full/ta043.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta044",
+      "category": "tablet",
+      "collection": "vehicles",
+      "thumb": "tablet/thumbs/ta044.webp",
+      "full": "tablet/full/ta044.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta045",
+      "category": "tablet",
+      "collection": "vehicles",
+      "thumb": "tablet/thumbs/ta045.webp",
+      "full": "tablet/full/ta045.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta046",
+      "category": "tablet",
+      "collection": "vehicles",
+      "thumb": "tablet/thumbs/ta046.webp",
+      "full": "tablet/full/ta046.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta047",
+      "category": "tablet",
+      "collection": "vehicles",
+      "thumb": "tablet/thumbs/ta047.webp",
+      "full": "tablet/full/ta047.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta048",
+      "category": "tablet",
+      "collection": "vehicles",
+      "thumb": "tablet/thumbs/ta048.webp",
+      "full": "tablet/full/ta048.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta049",
+      "category": "tablet",
+      "collection": "vehicles",
+      "thumb": "tablet/thumbs/ta049.webp",
+      "full": "tablet/full/ta049.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta050",
+      "category": "tablet",
+      "collection": "vehicles",
+      "thumb": "tablet/thumbs/ta050.webp",
+      "full": "tablet/full/ta050.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta051",
+      "category": "tablet",
+      "collection": "vehicles",
+      "thumb": "tablet/thumbs/ta051.webp",
+      "full": "tablet/full/ta051.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta052",
+      "category": "tablet",
+      "collection": "vehicles",
+      "thumb": "tablet/thumbs/ta052.webp",
+      "full": "tablet/full/ta052.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta053",
+      "category": "tablet",
+      "collection": "vehicles",
+      "thumb": "tablet/thumbs/ta053.webp",
+      "full": "tablet/full/ta053.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta054",
+      "category": "tablet",
+      "collection": "vehicles",
+      "thumb": "tablet/thumbs/ta054.webp",
+      "full": "tablet/full/ta054.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta055",
+      "category": "tablet",
+      "collection": "companions",
+      "thumb": "tablet/thumbs/ta055.webp",
+      "full": "tablet/full/ta055.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta056",
+      "category": "tablet",
+      "collection": "companions",
+      "thumb": "tablet/thumbs/ta056.webp",
+      "full": "tablet/full/ta056.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta057",
+      "category": "tablet",
+      "collection": "companions",
+      "thumb": "tablet/thumbs/ta057.webp",
+      "full": "tablet/full/ta057.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta058",
+      "category": "tablet",
+      "collection": "companions",
+      "thumb": "tablet/thumbs/ta058.webp",
+      "full": "tablet/full/ta058.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta059",
+      "category": "tablet",
+      "collection": "companions",
+      "thumb": "tablet/thumbs/ta059.webp",
+      "full": "tablet/full/ta059.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta060",
+      "category": "tablet",
+      "collection": "companions",
+      "thumb": "tablet/thumbs/ta060.webp",
+      "full": "tablet/full/ta060.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta061",
+      "category": "tablet",
+      "collection": "companions",
+      "thumb": "tablet/thumbs/ta061.webp",
+      "full": "tablet/full/ta061.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta062",
+      "category": "tablet",
+      "collection": "companions",
+      "thumb": "tablet/thumbs/ta062.webp",
+      "full": "tablet/full/ta062.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta063",
+      "category": "tablet",
+      "collection": "companions",
+      "thumb": "tablet/thumbs/ta063.webp",
+      "full": "tablet/full/ta063.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta064",
+      "category": "tablet",
+      "collection": "companions",
+      "thumb": "tablet/thumbs/ta064.webp",
+      "full": "tablet/full/ta064.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta065",
+      "category": "tablet",
+      "collection": "companions",
+      "thumb": "tablet/thumbs/ta065.webp",
+      "full": "tablet/full/ta065.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta066",
+      "category": "tablet",
+      "collection": "companions",
+      "thumb": "tablet/thumbs/ta066.webp",
+      "full": "tablet/full/ta066.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta067",
+      "category": "tablet",
+      "collection": "companions",
+      "thumb": "tablet/thumbs/ta067.webp",
+      "full": "tablet/full/ta067.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta068",
+      "category": "tablet",
+      "collection": "companions",
+      "thumb": "tablet/thumbs/ta068.webp",
+      "full": "tablet/full/ta068.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta069",
+      "category": "tablet",
+      "collection": "companions",
+      "thumb": "tablet/thumbs/ta069.webp",
+      "full": "tablet/full/ta069.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta070",
+      "category": "tablet",
+      "collection": "companions",
+      "thumb": "tablet/thumbs/ta070.webp",
+      "full": "tablet/full/ta070.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta071",
+      "category": "tablet",
+      "collection": "companions",
+      "thumb": "tablet/thumbs/ta071.webp",
+      "full": "tablet/full/ta071.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta072",
+      "category": "tablet",
+      "collection": "companions",
+      "thumb": "tablet/thumbs/ta072.webp",
+      "full": "tablet/full/ta072.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta073",
+      "category": "tablet",
+      "collection": "companions",
+      "thumb": "tablet/thumbs/ta073.webp",
+      "full": "tablet/full/ta073.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta074",
+      "category": "tablet",
+      "collection": "companions",
+      "thumb": "tablet/thumbs/ta074.webp",
+      "full": "tablet/full/ta074.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta075",
+      "category": "tablet",
+      "collection": "helmets",
+      "thumb": "tablet/thumbs/ta075.webp",
+      "full": "tablet/full/ta075.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta076",
+      "category": "tablet",
+      "collection": "helmets",
+      "thumb": "tablet/thumbs/ta076.webp",
+      "full": "tablet/full/ta076.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta077",
+      "category": "tablet",
+      "collection": "helmets",
+      "thumb": "tablet/thumbs/ta077.webp",
+      "full": "tablet/full/ta077.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta078",
+      "category": "tablet",
+      "collection": "helmets",
+      "thumb": "tablet/thumbs/ta078.webp",
+      "full": "tablet/full/ta078.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta079",
+      "category": "tablet",
+      "collection": "helmets",
+      "thumb": "tablet/thumbs/ta079.webp",
+      "full": "tablet/full/ta079.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta080",
+      "category": "tablet",
+      "collection": "helmets",
+      "thumb": "tablet/thumbs/ta080.webp",
+      "full": "tablet/full/ta080.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta081",
+      "category": "tablet",
+      "collection": "helmets",
+      "thumb": "tablet/thumbs/ta081.webp",
+      "full": "tablet/full/ta081.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta082",
+      "category": "tablet",
+      "collection": "helmets",
+      "thumb": "tablet/thumbs/ta082.webp",
+      "full": "tablet/full/ta082.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta083",
+      "category": "tablet",
+      "collection": "helmets",
+      "thumb": "tablet/thumbs/ta083.webp",
+      "full": "tablet/full/ta083.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
+    },
+    {
+      "id": "ta084",
+      "category": "tablet",
+      "collection": "helmets",
+      "thumb": "tablet/thumbs/ta084.webp",
+      "full": "tablet/full/ta084.webp",
+      "added": "2026-10-27",
+      "w": 1600,
+      "h": 2560
     }
   ]
 }

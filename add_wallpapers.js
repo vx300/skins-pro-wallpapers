@@ -52,8 +52,12 @@ function main() {
     const cat = cats[catId];
     if (!cat) { console.warn(`تخطّي: قسم غير معروف "${catId}" (أضفه لـ wallpapers.json)`); continue; }
     const wide = cat.ratio === '16:9';
-    const [fw, fh] = wide ? [1920, 1080] : [1080, 1920];
-    const [tw, th] = wide ? [640, 360] : [360, 640];
+    // مقاس النسخة الكاملة: من cat.full بالـ JSON، وإلا افتراضيّ حسب الاتجاه
+    const [fw, fh] = (Array.isArray(cat.full) && cat.full.length === 2)
+      ? cat.full
+      : (wide ? [1920, 1080] : [1080, 1920]);
+    // المصغّرة = ثلث الكامل (متل العادة)
+    const [tw, th] = [Math.round(fw / 3), Math.round(fh / 3)];
 
     // ترتيب المجموعات حسب تعريفها بالـ collections، وأي مجلد إضافي بعدها
     const dirs = fs.readdirSync(catDir).filter((d) =>

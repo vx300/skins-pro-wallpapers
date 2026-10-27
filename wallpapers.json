@@ -3121,5 +3121,57 @@
       "w": 1080,
       "h": 1080
     }
+  ],
+  "daily": [
+    {
+      "id": "d001",
+      "category": "daily",
+      "collection": "",
+      "thumb": "daily/thumbs/d001.webp",
+      "full": "daily/full/d001.webp",
+      "added": "2026-10-27",
+      "w": 1920,
+      "h": 1080
+    },
+    {
+      "id": "d002",
+      "category": "daily",
+      "collection": "",
+      "thumb": "daily/thumbs/d002.webp",
+      "full": "daily/full/d002.webp",
+      "added": "2026-10-27",
+      "w": 1920,
+      "h": 1080
+    },
+    {
+      "id": "d003",
+      "category": "daily",
+      "collection": "",
+      "thumb": "daily/thumbs/d003.webp",
+      "full": "daily/full/d003.webp",
+      "added": "2026-10-27",
+      "w": 1920,
+      "h": 1080
+    },
+    {
+      "id": "d004",
+      "category": "daily",
+      "collection": "",
+      "thumb": "daily/thumbs/d004.webp",
+      "full": "daily/full/d004.webp",
+      "added": "2026-10-27",
+      "w": 1920,
+      "h": 1080
+    },
+    {
+      "id": "d005",
+      "category": "daily",
+      "collection": "",
+      "thumb": "daily/thumbs/d005.webp",
+      "full": "daily/full/d005.webp",
+      "added": "2026-10-27",
+      "w": 1920,
+      "h": 1080
+    }
   ]
 }
